@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vncviewer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Debug">
+				<Option output="/home/zealotous/code/UltraVNC/vncviewer/./Debug/vncviewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D__NT__" />
+					<Add option="-D_WINSTATIC" />
+					<Add option="-D__WIN32__" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_MBCS" />
+					<Add directory="omnithread" />
+					<Add directory=".." />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../.." />
+					<Add directory=".." />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="comctl32" />
+					<Add library="winmm" />
+					<Add library="omnithread" />
+					<Add library="wsock32" />
+					<Add directory="./omnithread/Debug" />
+				</Linker>
+			</Target>
+			<Target title="x64 Debug">
+				<Option output="./Debug/vncviewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="$(PlatformName)/$(ConfigurationName)" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D__NT__" />
+					<Add option="-D_WINSTATIC" />
+					<Add option="-D__WIN32__" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_X64" />
+					<Add directory="omnithread" />
+					<Add directory=".." />
+				</Compiler>
+				<Linker>
+					<Add option="-Map .\Debug\vncviewer.map.map" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="comctl32" />
+					<Add library="winmm" />
+					<Add library="omnithread" />
+					<Add library="wsock32" />
+					<Add directory="./omnithread/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Release">
+				<Option output="/home/zealotous/code/UltraVNC/vncviewer/./Release/vncviewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D__NT__" />
+					<Add option="-D_WINSTATIC" />
+					<Add option="-D__WIN32__" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add directory="omnithread" />
+					<Add directory=".." />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="comctl32" />
+					<Add library="winmm" />
+					<Add library="omnithread" />
+					<Add library="wsock32" />
+					<Add library="Advapi32" />
+					<Add directory="omnithread/Release" />
+				</Linker>
+			</Target>
+			<Target title="x64 Release">
+				<Option output="./Release/vncviewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="$(PlatformName)/$(ConfigurationName)" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D__NT__" />
+					<Add option="-D_WINSTATIC" />
+					<Add option="-D__WIN32__" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_X64" />
+					<Add directory="omnithread" />
+					<Add directory=".." />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="comctl32" />
+					<Add library="winmm" />
+					<Add library="omnithread" />
+					<Add library="wsock32" />
+					<Add directory="omnithread/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="res/B46.ico" />
+		<Unit filename="res/stat/back.bmp" />
+		<Unit filename="res/background2.bmp" />
+		<Unit filename="res/stat/background2.bmp" />
+		<Unit filename="res/bitmap1.bmp" />
+		<Unit filename="res/bitmap2.bmp" />
+		<Unit filename="res/stat/bitmap4.bmp" />
+		<Unit filename="res/stat/bitmap5.bmp" />
+		<Unit filename="res/stat/bitmap8.bmp" />
+		<Unit filename="res/stat/bitmap9.bmp" />
+		<Unit filename="res/stat/both.bmp" />
+		<Unit filename="res/stat/closeup.bmp" />
+		<Unit filename="res/cursor1.cur" />
+		<Unit filename="res/cursorsel.cur" />
+		<Unit filename="res/dir.ico" />
+		<Unit filename="res/drive.ico" />
+		<Unit filename="res/file.ico" />
+		<Unit filename="res/stat/flash.bmp" />
+		<Unit filename="res/stat/front.bmp" />
+		<Unit filename="res/hoch.bmp" />
+		<Unit filename="res/idr_tray.ico" />
+		<Unit filename="res/idr_tray_disabled.ico" />
+		<Unit filename="res/stat/mainicon.ico" />
+		<Unit filename="res/stat/maximizeup.bmp" />
+		<Unit filename="res/stat/minimizeup.bmp" />
+		<Unit filename="res/nocursor.cur" />
+		<Unit filename="res/stat/none.bmp" />
+		<Unit filename="res/stat/pindown.bmp" />
+		<Unit filename="res/stat/pinup.bmp" />
+		<Unit filename="res/quer.bmp" />
+		<Unit filename="res/toolbar1.bmp" />
+		<Unit filename="res/ultra-logo.bmp" />
+		<Unit filename="res/vnc.bmp" />
+		<Unit filename="res/vnc32.BMP" />
+		<Unit filename="res/vnc64.BMP" />
+		<Unit filename="res/vncviewer.ico" />
+		<Unit filename="AboutBox.cpp" />
+		<Unit filename="AboutBox.h" />
+		<Unit filename="AccelKeys.cpp" />
+		<Unit filename="AccelKeys.h" />
+		<Unit filename="AuthDialog.cpp" />
+		<Unit filename="AuthDialog.h" />
+		<Unit filename="buildtime.cpp" />
+		<Unit filename="ClientConnection.cpp" />
+		<Unit filename="ClientConnection.h" />
+		<Unit filename="ClientConnectionCacheRect.cpp" />
+		<Unit filename="ClientConnectionClipboard.cpp" />
+		<Unit filename="ClientConnectionCopyRect.cpp" />
+		<Unit filename="ClientConnectionCoRRE.cpp" />
+		<Unit filename="ClientConnectionCursor.cpp" />
+		<Unit filename="ClientConnectionFile.cpp" />
+		<Unit filename="ClientConnectionFullScreen.cpp" />
+		<Unit filename="ClientConnectionHextile.cpp" />
+		<Unit filename="ClientConnectionRaw.cpp" />
+		<Unit filename="ClientConnectionRRE.cpp" />
+		<Unit filename="ClientConnectionTight.cpp" />
+		<Unit filename="ClientConnectionUltra.cpp" />
+		<Unit filename="ClientConnectionZlib.cpp" />
+		<Unit filename="ClientConnectionZlibHex.cpp" />
+		<Unit filename="COPYING.txt" />
+		<Unit filename="d3des.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="d3des.h" />
+		<Unit filename="Daemon.cpp" />
+		<Unit filename="Daemon.h" />
+		<Unit filename="../rfb/dh.cpp" />
+		<Unit filename="../rfb/dh.h" />
+		<Unit filename="../DSMPlugin/DSMPlugin.cpp" />
+		<Unit filename="../DSMPlugin/DSMPlugin.h" />
+		<Unit filename="Exception.cpp" />
+		<Unit filename="Exception.h" />
+		<Unit filename="FileTransfer.cpp" />
+		<Unit filename="FileTransfer.h" />
+		<Unit filename="FullScreenTitleBar.cpp" />
+		<Unit filename="FullScreenTitleBar.h" />
+		<Unit filename="FullScreenTitleBarConst.h" />
+		<Unit filename="History.txt" />
+		<Unit filename="KeyMap.cpp" />
+		<Unit filename="KeyMap.h" />
+		<Unit filename="KeyMapjap.cpp" />
+		<Unit filename="KeyMapjap.h" />
+		<Unit filename="keysymdef.h" />
+		<Unit filename="keysymdefjap.h" />
+		<Unit filename="LICENCE.txt" />
+		<Unit filename="Log.cpp" />
+		<Unit filename="Log.h" />
+		<Unit filename="LowLevelHook.cpp" />
+		<Unit filename="LowLevelHook.h" />
+		<Unit filename="MessBox2.cpp" />
+		<Unit filename="../lzo/minilzo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MRU.cpp" />
+		<Unit filename="MRU.h" />
+		<Unit filename="res/resource.h" />
+		<Unit filename="rfb.h" />
+		<Unit filename="SessionDialog.cpp" />
+		<Unit filename="SessionDialog.h" />
+		<Unit filename="stdhdrs.cpp" />
+		<Unit filename="stdhdrs.h" />
+		<Unit filename="TextChat.cpp" />
+		<Unit filename="TextChat.h" />
+		<Unit filename="ToDo.txt" />
+		<Unit filename="vncauth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vncauth.h" />
+		<Unit filename="VNCOptions.cpp" />
+		<Unit filename="VNCOptions.h" />
+		<Unit filename="vncviewer.cpp" />
+		<Unit filename="vncviewer.h" />
+		<Unit filename="res/vncviewer.rc" />
+		<Unit filename="VNCviewerApp.cpp" />
+		<Unit filename="VNCviewerApp.h" />
+		<Unit filename="VNCviewerApp32.cpp" />
+		<Unit filename="VNCviewerApp32.h" />
+		<Unit filename="../common/win32_helpers.cpp" />
+		<Unit filename="../common/win32_helpers.h" />
+		<Unit filename="../ZipUnZip32/ZipUnzip32.cpp" />
+		<Unit filename="../ZipUnZip32/ZipUnZip32.h" />
+		<Unit filename="zrle.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

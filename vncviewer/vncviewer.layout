@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Win32 Debug" />
+	<File name="../DSMPlugin/DSMPlugin.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1935" topLine="35" />
+	</File>
+	<File name="../ZipUnZip32/ZipUnZip32.h" open="0" top="0" tabpos="0">
+		<Cursor position="2204" topLine="58" />
+	</File>
+	<File name="../rfb/dh.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4751" topLine="0" />
+	</File>
+	<File name="AccelKeys.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="336" topLine="84" />
+	</File>
+	<File name="AuthDialog.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1820" topLine="42" />
+	</File>
+	<File name="ClientConnection.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="215922" topLine="7226" />
+	</File>
+	<File name="ClientConnection.h" open="1" top="0" tabpos="3">
+		<Cursor position="4702" topLine="155" />
+	</File>
+	<File name="ClientConnectionFile.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="7406" topLine="0" />
+	</File>
+	<File name="ClientConnectionTight.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="493" topLine="632" />
+	</File>
+	<File name="Daemon.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6992" topLine="228" />
+	</File>
+	<File name="Exception.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="122" topLine="0" />
+	</File>
+	<File name="FullScreenTitleBar.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="18633" topLine="690" />
+	</File>
+	<File name="KeyMap.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2961" topLine="147" />
+	</File>
+	<File name="Log.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1886" topLine="2" />
+	</File>
+	<File name="LowLevelHook.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1664" topLine="21" />
+	</File>
+	<File name="TextChat.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="149" topLine="469" />
+	</File>
+	<File name="VNCOptions.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="26141" topLine="1371" />
+	</File>
+	<File name="VNCOptions.h" open="1" top="0" tabpos="6">
+		<Cursor position="3530" topLine="108" />
+	</File>
+	<File name="VNCviewerApp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1493" topLine="27" />
+	</File>
+	<File name="VNCviewerApp.h" open="1" top="0" tabpos="5">
+		<Cursor position="2007" topLine="44" />
+	</File>
+	<File name="VNCviewerApp32.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1699" topLine="34" />
+	</File>
+	<File name="VNCviewerApp32.h" open="0" top="0" tabpos="0">
+		<Cursor position="1164" topLine="16" />
+	</File>
+	<File name="res/resource.h" open="0" top="0" tabpos="0">
+		<Cursor position="88" topLine="0" />
+	</File>
+	<File name="vncauth.c" open="0" top="0" tabpos="0">
+		<Cursor position="2991" topLine="173" />
+	</File>
+	<File name="vncviewer.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="21102" topLine="609" />
+	</File>
+	<File name="vncviewer.h" open="0" top="0" tabpos="0">
+		<Cursor position="1513" topLine="39" />
+	</File>
+</CodeBlocks_layout_file>
